@@ -1,0 +1,54 @@
+<html>
+<head>
+<title> gging_tae </title>
+<style type="text/css">
+#plas{
+    border : 1px solid #cccccc;
+    width : 50%;
+    margin : 0 auto;
+}</style>
+</head>
+<body>
+<ul>
+
+    <div id="plas">
+
+    <h2>Plastic</h2>
+
+    <li> <input type="button" value="일반사항 접기" onclick="
+        var target = document.querySelector('#data0');
+        if(this.value==='일반사항 접기'){
+            target.style.display = 'none';
+            this.value = '일반사항 펼치기';
+        }
+        else{
+            target.style.display = 'block';
+            this.value = '일반사항 접기';
+        }
+        ">       
+        <p id="data0"> 플라스틱좀 아껴쓰자 새끼들아 </p> 
+    </li>
+
+    <li> <input type="button" value="주의사항 접기" onclick="
+        var target = document.querySelector('#data1');
+        if(this.value==='주의사항 접기'){
+            target.style.display = 'none';
+            this.value = '주의사항 펼치기';
+        }
+        else{
+            target.style.display = 'block';
+            this.value = '주의사항 접기';
+        }
+        ">
+        <p id="data1"> 플라스틱 주의하자 새끼들아 </p> 
+    </li>
+
+    </div>
+</ul>
+</body>
+</html>
+
+
+
+
+
